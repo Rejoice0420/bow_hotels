@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bow Hotels Ltd - Hotel 2</title>
+  <link rel="stylesheet" href="css/styleHotel.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/hotel_logo-removebg.png" alt="Bow Hotels Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hotel1.html">Hotel Taj</a></li>
+        <li><a href="hotel2.html" class="active">Hotel Trident</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hotel-details">
+    <div class="hero-image">
+      <img src="images/hotel4.jpg" alt="Hotel 1">
+    </div>
+
+    <div class="hotel-info">
+      <h1>Hotel Trident</h1>
+      <p class="price">Starting from $150 per night</p>
+      <p>Located in the heart of the city, Hotel Trident offers a blend of luxury and convenience for both business and leisure travelers. Enjoy a serene escape in a modern atmosphere.</p>
+
+
+      <div class="unique-features">
+        <h2>Unique Features</h2>
+        <ul>
+          <!-- <li><img src="images/spa.jpg" alt="Spa"> Full-Service Spa for Relaxation</li> -->
+          <li><img src="images/rooftop.jpg" alt="Rooftop View"> Rooftop with Scenic City Views</li>
+          <li><img src="images/dining.jpg" alt="Breakfast"> Complimentary Breakfast</li>
+          <li><img src="images/conference_room.jpg" alt="Conference Room"> Modern Conference Rooms</li>
+        </ul>
+      </div>
+      
+      <h2>Room Options</h2>
+<div class="rooms">
+  <div class="room">
+    <div class="room-image">
+      <img src="images/standard.jpg" alt="Standard Room">
+      <div class="overlay">
+        <h3>Standard Room</h3>
+        <p>Comfortable and cozy with all essential amenities. Perfect for solo travelers.</p>
+        <p class="room-price">$150 per night</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="room">
+    <div class="room-image">
+      <img src="images/deluxe.jpg" alt="Deluxe Room">
+      <div class="overlay">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with premium facilities and city views.</p>
+        <p class="room-price">$200 per night</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="room">
+    <div class="room-image">
+      <img src="images/suite.jpg" alt="Suite">
+      <div class="overlay">
+        <h3>Suite</h3>
+        <p>Luxurious suite with a separate lounge and breathtaking views.</p>
+        <p class="room-price">$250 per night</p>
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h2>Amenities</h2>
+<ul class="amenities">
+  <li><img src="images/beach_access.jpg" alt="Wi-Fi Icon"> Beach Access</li>
+  <li><img src="images/pool.jpg" alt="Swimming Pool Icon"> Private Pools</li>
+  <li><img src="images/gym.jpg" alt="Fitness Center Icon"> Fitness Center</li>
+  <li><img src="images/beach.jpg" alt="Restaurant Icon"> Ocean View Suites</li>
+  <li><img src="images/room_service.jpg" alt="Room Service Icon"> 24/7 Room Service</li>
+</ul>
+
+
+
+      <div class="booking">
+        <h2>Book Now</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="checkin">Check-in:</label>
+          <input type="date" id="checkin" name="checkin" required>
+          
+          <label for="checkout">Check-out:</label>
+          <input type="date" id="checkout" name="checkout" required>
+
+          <label for="roomType">Room Type:</label>
+          <select id="roomType" name="roomType">
+            <option value="standard">Standard Room</option>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="suite">Suite</option>
+          </select>
+          
+          <label for="guests">Guests:</label>
+          <select id="guests" name="guests">
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+          </select>
+          
+          <button type="submit" class="btn">Check Availability</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bow Hotels Ltd</p>
+  </footer>
+</body>
+</html>
