@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = isset($_POST['age']) ? (int)$_POST['comment'] : NULL;
 
     // SQL query to insert data into the table
-    $sql = "INSERT INTO users (name, email, comment) VALUES ('$name', '$email', '$comment')";
+    $sql = "INSERT INTO customers (name, email, comment) VALUES ('$name', '$email', '$comment')";
 
     // Execute the query
     if ($conn->query($sql) === TRUE) {
