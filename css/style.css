@@ -41,6 +41,10 @@ header .logo img {
   height: auto;
 }
 
+h2 {
+  color: white;
+}
+
 nav ul {
   display: flex;
   gap: 15px; /* Space between nav items */
