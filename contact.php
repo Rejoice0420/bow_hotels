@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data and sanitize it
     $name = $conn->real_escape_string($_POST['name']);
     $email = $conn->real_escape_string($_POST['email']);
-    $comment = isset($_POST['comment']) ? (int)$_POST['comment'] : NULL;
+    $comment = $conn->real_escape_string($_POST['comment']);
 
     // SQL query to insert data into the table
     $sql = "INSERT INTO `users` (`name`, `email`, `comment`) VALUES ('$name', '$email', '$comment')";
