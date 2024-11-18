@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$servername = "database-100.czptxhzjxjrt.us-east-1.rds.amazonaws.com";
+$servername = "bowhotels123.czptxhzjxjrt.us-east-1.rds.amazonaws.com";
 $username = "rejoice100";
 $password = "rejoice10";
 $dbname = "bowhotels";
